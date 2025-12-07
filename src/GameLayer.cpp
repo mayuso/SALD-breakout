@@ -89,7 +89,7 @@ void GameLayer::OnUpdate(Sald::Timestep timestep)
 
 void GameLayer::OnEvent(Sald::Event &event)
 {
-    SALD_LOG("ExampleLayer :: OnUpdate - Event: {0}", event);
+    SALD_LOG("ExampleLayer :: OnUpdate - Event: {0}", event.ToString());
 
     // TODO: PLAYER_VELOCITY * 0.01f should be multiplying deltaTime. Right now OnUpdate receives it, but OnEvent does not.
     // Think about how to pass it here in a clean way
