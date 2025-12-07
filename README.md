@@ -2,6 +2,8 @@
 
 A breakout game built using [SALD](https://github.com/mayuso/SALD).
 
+![](otherResources/sald-breakout.gif)
+
 ## Usage
 
 ### Build from source
