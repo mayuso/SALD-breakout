@@ -33,7 +33,7 @@ For quick testing or development:
 mkdir build
 cd build
 cmake ..
-make
+cmake --build . --parallel
 ./sald-breakout
 ```
 
@@ -45,7 +45,7 @@ To create a standalone `release` folder containing the optimized executable and 
 mkdir build
 cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
-make install
+cmake --build . --config Release --parallel
 ```
 
 This will generate a `release/` directory in the project root. You can then run the game directly from there:
