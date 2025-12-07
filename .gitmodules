@@ -1,0 +1,3 @@
+[submodule "vendor/sald"]
+	path = vendor/sald
+	url = git@github.com:mayuso/SALD.git
